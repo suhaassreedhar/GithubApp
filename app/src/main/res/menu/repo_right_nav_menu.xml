@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/repo_right_nav"
+        android:title="@string/information">
+        <menu>
+            <group android:id="@+id/repo_right_nav_selections_grp"
+                android:checkableBehavior="single">
+                <item android:id="@+id/sign_out"
+                    android:title="@string/signout" />
+            </group>
+        </menu>
+    </item>
+</menu>
